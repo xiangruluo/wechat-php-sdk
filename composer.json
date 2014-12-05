@@ -1,0 +1,21 @@
+{
+    "name": "flowersays/wechat",
+    "keywords": ["laravel", "weixin", "wechat"],
+    "description": "Wechat SDK from Laravel4",
+    "authors": [
+        {
+            "name": "luoxiangru",
+            "email": "15663195@qq.com"
+        }
+    ],
+    "license" : "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FlowerSays\\Wechat\\": "src/"
+        }
+    }
+}
